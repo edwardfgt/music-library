@@ -1,3 +1,3 @@
 class Artist
-  attr_accessor :id, :name, :generally
+  attr_accessor :id, :name, :genre
 end
