@@ -109,6 +109,19 @@ class ArtistRepository
     # Executes the SQL query:
     # SELECT id, name, cohort_name FROM students WHERE id = $1;
     # Returns a single Student object.
+  def create(artist)
+    #executes SQL query:
+    #INSERT INTO artists (name, genre) VALUES($1, $2);
+  end
+
+  def delete(id)
+    #executes SQL query:
+    #DELETE FROM artists where id = $1;
+  end
+
+  def update(artist)
+    #executes SQL query:
+    #UPDATE artists SET name = $1, genre = $2 WHERE id = $3
   end
   # Add more methods below for each operation you'd like to implement.
   # def create(student)
